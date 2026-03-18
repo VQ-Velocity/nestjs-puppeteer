@@ -15,16 +15,16 @@
     "reinstall:full": "rm -rf node_modules && rm -rf package-lock.json && npm cache clean --force && npm install && npm outdated"
   },
   "engines": {
-    "npm": ">=11.6.2",
-    "node": ">=23.11.1"
+    "npm": ">=10.8.0",
+    "node": "23.x"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "devDependencies": {
-    "@nestjs/common": "^11.1.0",
-    "@nestjs/core": "^11.1.0",
-    "@nestjs/platform-express": "^11.1.0",
-    "@nestjs/testing": "^11.1.0",
+    "@nestjs/common": "^11.1.13",
+    "@nestjs/core": "^11.1.13",
+    "@nestjs/platform-express": "^11.1.13",
+    "@nestjs/testing": "^11.1.13",
     "@types/node": "^22.15.15",
     "puppeteer": "^23.11.1",
     "puppeteer-extra": "^3.3.6",
@@ -38,8 +38,8 @@
     "@nestjs/core": "^9.0.0 || ^11.1.0",
     "puppeteer": "^23",
     "puppeteer-extra": "^3",
-    "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0"
+    "reflect-metadata": "*",
+    "rxjs": "*"
   },
   "lint-staged": {
     "**/*.{ts,json}": []
