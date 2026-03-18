@@ -16,7 +16,7 @@
   },
   "engines": {
     "npm": ">=10.8.0",
-    "node": "23.x"
+    "node": "24.x"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
