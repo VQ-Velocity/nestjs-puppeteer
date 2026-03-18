@@ -15,8 +15,8 @@
     "reinstall:full": "rm -rf node_modules && rm -rf package-lock.json && npm cache clean --force && npm install && npm outdated"
   },
   "engines": {
-    "npm": ">=10.8.0",
-    "node": ">=20.16.0 <24.0.0"
+    "npm": ">=11.6.2",
+    "node": ">=23.11.1"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
