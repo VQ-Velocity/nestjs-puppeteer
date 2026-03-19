@@ -50,6 +50,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oblakstudio/nestjs-puppeteer.git"
+    "url": "git+https://github.com/VQ-Velocity/nestjs-puppeteer.git"
   }
 }
